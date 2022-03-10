@@ -5,3 +5,12 @@ header h1{
     color: bisque;
     text-align: center;
 }
+.tabla1{
+    border-collapse:collapse;
+    width: 50%;
+    text-align: center;
+}
+th, td{
+    border: solid 1px black;
+    padding: 5px;
+}

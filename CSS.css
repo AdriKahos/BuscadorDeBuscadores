@@ -9,6 +9,7 @@ header h1{
     border-collapse:collapse;
     width: 50%;
     text-align: center;
+    margin: 0 auto;
 }
 th, td{
     border: solid 1px black;

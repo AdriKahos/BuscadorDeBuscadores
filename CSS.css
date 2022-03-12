@@ -1,9 +1,18 @@
+body{
+    margin: 0;
+}
 header{
     background-color: cadetblue;
 }
 header h1{
     color: bisque;
     text-align: center;
+}
+header img{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    padding: 8px;
 }
 .tabla1{
     border-collapse:collapse;
@@ -15,13 +24,16 @@ th, td{
     border: solid 1px black;
     padding: 5px;
 }
+.container{
+    padding: 1rem 0;
+}
 footer{
     background-color: antiquewhite;
-    padding: 25px;
+    padding: 1rem;
 }
-header img{
-    height: 20px;
-    width: 20px;
-    position: absolute;
-    padding: 8px;
+footer section{
+    float: right;
+}
+footer p{
+    margin: 0;
 }

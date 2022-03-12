@@ -15,3 +15,13 @@ th, td{
     border: solid 1px black;
     padding: 5px;
 }
+footer{
+    background-color: antiquewhite;
+    padding: 25px;
+}
+header img{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    padding: 8px;
+}

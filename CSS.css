@@ -14,12 +14,22 @@ header h1{
     margin: 0 auto;
     width: 500px;
 }
-header img{
-    height: 20px;
-    width: 20px;
+header section{
+    float: left;
+}
+header section img{
+    height: 35px;
+    width: 35px;
+}
+header h1{
+    margin: 0;
+}
+/* header img{
+    height: 40px;
+    width: 40px;
     position: absolute;
     padding: 8px;
-}
+} */
 article{
     background-color: darkkhaki;
     margin: 1rem 0;
@@ -51,10 +61,12 @@ th, td{
 
 footer{
     background-color: antiquewhite;
-    padding: 1rem;
+    padding: 1.5rem;
 }
 footer section{
+    display: block;
     float: right;
+    
 }
 footer p{
     margin: 0;
